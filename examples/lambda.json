@@ -1,0 +1,26 @@
+{
+  "channelMonitorEnabled": false,
+  "aws": {
+    "region": "eu-west-1"
+  },
+  "routes": [
+    {
+      "response": {},
+      "bus": {
+        "namespace": "test:ev"
+      },
+      "lambda": {
+        "functionName": "echoTimeoutFunction"
+      }
+    },
+
+    {
+      "bus": {
+        "namespace": "test:through"
+      },
+      "lambda": {
+        "functionName": "echoTimeoutFunction"
+      }
+    }
+  ]
+}

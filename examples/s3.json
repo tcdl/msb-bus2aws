@@ -1,0 +1,17 @@
+{
+  "channelMonitorEnabled": false,
+  "aws": {
+    "region": "eu-west-1"
+  },
+  "routes": [
+    {
+      "bus": {
+        "namespace": "test:through"
+      },
+      "s3": {
+        "bucket": "bus2s3",
+        "acl": "authenticated-read"
+      }
+    }
+  ]
+}

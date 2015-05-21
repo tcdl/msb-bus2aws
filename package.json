@@ -1,0 +1,31 @@
+{
+  "name": "msb-bus2aws",
+  "version": "0.1.0",
+  "description": "Generic adapter to send messages from the msb bus to AWS services.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1.29",
+    "debug": "^2.2.0",
+    "lodash": "^3.9.1",
+    "minimist": "^1.1.1",
+    "msb": "^0.4.3",
+    "tv4": "^1.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcdl/msb-bus2aws.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcdl/msb-bus2aws/issues"
+  },
+  "homepage": "https://github.com/tcdl/msb-bus2aws"
+}
