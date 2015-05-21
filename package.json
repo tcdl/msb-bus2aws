@@ -1,6 +1,6 @@
 {
   "name": "msb-bus2aws",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generic adapter to send messages from the msb bus to AWS services.",
   "main": "index.js",
   "dependencies": {
