@@ -1,4 +1,4 @@
-# msb-bus2aws
+# msb-bus2aws [![Build Status](https://travis-ci.org/tcdl/msb-bus2aws.svg?branch=master)](https://travis-ci.org/tcdl/msb-bus2aws)
 Generic adapter to send messages from the [microservicebus](https://github.com/tcdl/msb) to AWS services.
 
 ## Installation

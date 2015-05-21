@@ -15,7 +15,7 @@
   "scripts": {
     "npmrc": "printf \"_auth = $NPM_AUTH_TOKEN\nemail = $NPM_EMAIL\n\" > .npmrc",
     "test": "npm run test-no-publish && if [ -n \"${TRAVIS_TAG}\" ]; then npm run npmrc && npm publish; fi",
-    "test-no-publish": "lab -t 95"
+    "test-no-publish": ""
   },
   "repository": {
     "type": "git",
